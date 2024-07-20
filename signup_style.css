@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: bisque;
+}
+
+form{
+    min-height: 70vh;
+    width: 26%;
+    border: 1px solid rgb(238, 213, 213);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #828b94;
+}
+
+input{
+    width: 80%;
+    height: 2rem;
+    border: 1px solid lightgrey;
+    outline: none;
+    border-radius: 0.75rem;
+    margin-top: 20px;
+}
+
+.submit{
+    background-color: #febd68;
+}
+
+form input{
+    padding-left: 0.5rem;
+}
+
+.already{
+    margin-top: 30px;
+}
+
+.img-amazon{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 100%;
+    width: 20%;
+    background-image: url("logo_amazon.webp");
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.valemail{
+    font-size: 14px;
+}
+
+.msg{
+    color: rgb(236, 7, 7);
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 4px;
+}
+
+.passwordMsg{
+    color: rgb(236, 7, 7);
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 4px;
+}
+
+.confirmPassMsg{
+    color: rgb(236, 7, 7);
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 4px;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 200px;
+    font-size: 13px;
+}

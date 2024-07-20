@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="deliver">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="ind">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="Select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="Search">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-lang border">
+                <div class="space"></div>
+                <i class="fa-solid fa-flag-usa"></i>
+                <select class="lang">
+                    <option>EN</option>
+                </select>
+            </div>
+            <div class="nav-sigin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+            <div class="nav-cart border">
+                <div class="cartNo"><span id="cart-count">0</span></div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-options">
+                <p class="border"><a href="#">Today's Deals</a></p>
+                <p class="border"><a href="#">Customer Service</a></p>
+                <p class="border"><a href="#">Registry</a></p>
+                <p class="border"><a href="#">Gift Cards</a></p>
+                <p class="border"><a href="#">Sell</a></p>
+            </div>
+            <div class="panel-deals border">
+                Shop deals in electronics
+            </div>
+        </div>
+    </header>
+
+    <div class="cart-section">
+        <h1 style="margin-bottom:10px; color:crimson;">Cart Items</h1>
+        <div id="cart-items"></div>
+        <!-- <h3>Total: $<span id="total-price">0.00</span></h3> -->
+    </div>
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+
+    <script src="cart_script.js"></script>
+</body>
+</html>

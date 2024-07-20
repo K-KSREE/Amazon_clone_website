@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon signup page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="signup_style.css" />
+</head>
+<body>
+    <form id="signupForm">
+        <div>
+            <div class="img-amazon">
+                <h2>Sign Up to</h2>
+                <div class="img"></div>
+            </div>
+            <input type="text" name="name" id="name" placeholder="Enter your name" class="name" required>
+            <input type="text" name="email" id="email" placeholder="Enter your email" class="email" required>
+            <div class="msg hidden" id="emailMsg">!Invalid mail</div>
+            <div class="msg hidden" id="registeredMsg">This email is already registered</div>
+            <input type="password" name="password" id="password" placeholder="Enter your password" class="pass" required>
+            <div class="passwordMsg hidden" id="passwordMsg">!Invalid mail</div>
+            <div id="passwordTooltip" class="tooltip">
+                Password must be at least 8 characters long and contain:
+                <ul>
+                    <li>At least one uppercase letter</li>
+                    <li>At least one lowercase letter</li>
+                    <li>At least one number</li>
+                    <li>At least one special character</li>
+                </ul>
+            </div>
+            <input type="password" name="Confirmpass" id="Confirmpass" placeholder="Confirm password" class="ConfirmPass" required>
+            <div class="confirmPassMsg hidden" id="confirmPassMsg">Passwords doesnot match</div>
+            <input type="submit" value="Sign Up" class="submit">
+            <p class="already">Already have an account? <a href="login.html">Log In</a>
+        </div>
+    </form>
+    <script src="signup_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login_style.css"/>
+</head>
+<body>
+    <form id="loginForm">
+        <div>
+            <div class="img-amazon">
+                <h2>LogIn to</h2>
+                <div class="img"></div>
+            </div>
+            <input type="text" name="email" id="email" placeholder="Enter your email" class="email" required>
+            <div class="msg hidden" id="emailMsg">User doesnot exist</div>
+            <input type="password" name="password" id="password" placeholder="Enter your password" class="pass" required>
+            <div class="passwordMsg hidden" id="passwordMsg">Incorrect password</div>
+            <input type="submit" value="LogIn" class="submit">
+            <div class="forgot hidden">Forgot Password?</div>
+            <p class="dont">Don't have an account?  <a href="signup.html">Sign Up</a>
+        </div>
+    </form>
+    <script src="login_script.js"></script>
+    <script src="signup_script.js"></script>
+</body>
+</html>
