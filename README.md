@@ -49,7 +49,7 @@ This project is a web application designed to replicate the basic functionality 
 - Adding to Cart: Click the "Shop now" button to add the product to your shopping cart.
 2. **Sign Up**
 - **Navigating to Sign Up**: Go to signup.html to access the registration page.
-- **Filling Out the Form:
+- **Filling Out the Form**:
     - Name: Enter your full name.
     - Email: Enter a valid email address. An error message will appear for invalid emails or already registered emails.
     - Password: Enter a password that meets the specified criteria (at least 8 characters long, containing uppercase, - - - lowercase, numbers, and special characters).
@@ -66,16 +66,16 @@ This project is a web application designed to replicate the basic functionality 
 - Displaying Cart Items: The cart page displays all items added to the cart with their details.
 
 ### File Descriptions
-**index.html**: The main page of the application, showcasing various product categories with "Shop now" buttons.
-**signup.html**: The registration page where users can sign up for a new account.
-**login.html**: The login page for existing users to access their accounts.
-**cart.html**: The page displaying all products added to the shopping cart.
-**style.css**: The main stylesheet for the homepage.
-**signup_style.css**: Styles specific to the sign-up page.
-**login_style.css**: Styles specific to the login page.
-**script.js**: Contains JavaScript for managing the shopping cart, sign-in tooltips, and updating cart count.
-**signup_script.js**: JavaScript for validating the sign-up form, including email format and password strength.
-**login_script.js**: JavaScript for validating user login credentials.
+- index.html The main page of the application, showcasing various product categories with "Shop now" buttons.
+- signup.html The registration page where users can sign up for a new account.
+- login.html: The login page for existing users to access their accounts.
+- cart.html: The page displaying all products added to the shopping cart.
+- style.css: The main stylesheet for the homepage.
+- signup_style.css: Styles specific to the sign-up page.
+- login_style.css: Styles specific to the login page.
+- script.js: Contains JavaScript for managing the shopping cart, sign-in tooltips, and updating cart count.
+- signup_script.js: JavaScript for validating the sign-up form, including email format and password strength.
+- login_script.js: JavaScript for validating user login credentials.
 
 ### Fork the repository.
 <p>1. Create a new branch for your changes.</p>
