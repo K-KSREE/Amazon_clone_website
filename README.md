@@ -66,8 +66,8 @@ This project is a web application designed to replicate the basic functionality 
 - Displaying Cart Items: The cart page displays all items added to the cart with their details.
 
 ### File Descriptions
-- index.html The main page of the application, showcasing various product categories with "Shop now" buttons.
-- signup.html The registration page where users can sign up for a new account.
+- index.html: The main page of the application, showcasing various product categories with "Shop now" buttons.
+- signup.html: The registration page where users can sign up for a new account.
 - login.html: The login page for existing users to access their accounts.
 - cart.html: The page displaying all products added to the shopping cart.
 - style.css: The main stylesheet for the homepage.
